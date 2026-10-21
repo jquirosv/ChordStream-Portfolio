@@ -38,6 +38,6 @@ The PHP/MySQL API manages accounts, invitations, membership, roles, shared songs
 
 <p align="center"><img src="assets/00_portada_chordstream.png" alt="Original ChordStream presentation showing library, reader, and editor" width="480"></p>
 
-The original portrait presentation remains available here. The README uses a separate horizontal vector cover for a more compact introduction. Both are presentation graphics; their role is distinct from test or device evidence.
+The original portrait presentation remains available here. The README opens with the project's original horizontal logo and wordmark, copied unchanged from its branding resources. Branding and presentation graphics are distinct from test or device evidence.
 
 [Architecture](ARCHITECTURE.md) · [Engineering decisions](TECHNICAL_NOTES.md) · [Validation](VALIDATION.md)

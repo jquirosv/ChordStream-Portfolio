@@ -1,8 +1,10 @@
 # Capturas de presentación
 
-`00-cover.svg` es una portada vectorial horizontal preparada para el README.
-Utiliza el nombre y la paleta azul de ChordStream con una ilustración musical;
-no representa una pantalla de la aplicación ni añade funciones al producto.
+`chordstream-wordmark.png` es una copia sin modificaciones de la composición
+horizontal original de marca: `design/branding/wordmark-original.png`.
+Incluye el símbolo y la tipografía propios de ChordStream y se utiliza como
+cabecera del README y del proyecto destacado en el perfil. No es una captura
+de la aplicación.
 
 Ocho PNG de 1080 × 1350 px, numerados para un carrusel. Muestran widgets reales
 de Flutter con datos de demostración, sobre marcos de teléfono y títulos.

@@ -1,4 +1,4 @@
-<p align="center"><img src="docs/assets/00-cover.svg" alt="ChordStream — Your repertoire, ready to play." width="100%"></p>
+<p align="center"><img src="docs/assets/chordstream-wordmark.png" alt="ChordStream — original logo and wordmark" width="100%"></p>
 
 # ChordStream
 

@@ -21,7 +21,7 @@ The private implementation includes music-engine, data, state, widget, and visua
 
 This update reviews the public repository's visual hierarchy, navigation, gallery, technical documentation, relative links, and complete Spanish README. It does **not** rerun the application suite or present a new application release.
 
-Screenshots use actual Flutter widgets with original demonstration content and fictional names. They are presentation renders, not evidence of production usage, device compatibility, or adoption. Asset copies are retained unchanged; the new horizontal SVG cover is a presentation graphic.
+Screenshots use actual Flutter widgets with original demonstration content and fictional names. They are presentation renders, not evidence of production usage, device compatibility, or adoption. Asset copies are retained unchanged. The README header uses the project's original logo and wordmark, copied unchanged from its branding resources.
 
 ## Limits
 
