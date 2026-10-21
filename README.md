@@ -9,7 +9,7 @@ to play. ChordStream combines a local song library with collaborative workspaces
 
 **Flutter · Dart · SQLite · PHP · MySQL**
 
-[Product tour](docs/PRODUCT_TOUR.md) · [Architecture](docs/ARCHITECTURE.md) · [Engineering decisions](docs/TECHNICAL_NOTES.md) · [Validation](docs/VALIDATION.md) · [Español](#chordstream-en-español)
+[Product tour](docs/PRODUCT_TOUR.md) · [Architecture](docs/ARCHITECTURE.md) · [Engineering decisions](docs/TECHNICAL_NOTES.md) · [Validation](docs/VALIDATION.md) · [Español](#español)
 
 **Created by [José Pablo Quirós Vásquez](https://github.com/jquirosv).**
 
@@ -107,6 +107,8 @@ This is one project in my portfolio. Visit my profile to explore my background
 and other projects.
 
 ---
+
+## Español
 
 <details>
 <summary>Español — presentación completa</summary>
