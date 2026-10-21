@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/assets/00-cover.svg" alt="ChordStream — Your repertoire, ready to play." width="100%"></p>
+
 # ChordStream
 
 **An Android songbook for rehearsals and live performance.**
@@ -5,9 +7,9 @@
 Organize songs, adapt chord charts to each musician, and keep the setlist ready
 to play. ChordStream combines a local song library with collaborative workspaces.
 
-<p align="center">
-  <img src="docs/assets/00_portada_chordstream.png" alt="ChordStream library, live reader, and music editor" width="540">
-</p>
+**Flutter · Dart · SQLite · PHP · MySQL**
+
+[Product tour](docs/PRODUCT_TOUR.md) · [Architecture](docs/ARCHITECTURE.md) · [Engineering decisions](docs/TECHNICAL_NOTES.md) · [Validation](docs/VALIDATION.md) · [Español](#chordstream-en-español)
 
 **Created by [José Pablo Quirós Vásquez](https://github.com/jquirosv).**
 
@@ -59,6 +61,7 @@ Real Flutter widgets with original demonstration content and fictional data.
 | ![Setlists](docs/assets/04_setlists.png) | ![Visual tablature](docs/assets/05_editor_vtab.png) | ![Chord dictionary](docs/assets/06_diccionario_acordes.png) |
 
 [Group collaboration](docs/assets/07_colaboracion.png) ·
+[Full product tour](docs/PRODUCT_TOUR.md) ·
 [Image provenance](docs/assets/README.md)
 
 ## Technologies
@@ -94,9 +97,11 @@ Real Flutter widgets with original demonstration content and fictional data.
 - The screenshots demonstrate the interface; this repository does not distribute
   application binaries or provide a public demo account.
 
+[Validation evidence and scope](docs/VALIDATION.md).
+
 ## Author
 
-[José Pablo Quirós Vásquez](https://github.com/jquirosv) · Costa Rica
+[José Pablo Quirós Vásquez](https://github.com/jquirosv) · Costa Rica · [LinkedIn](https://www.linkedin.com/in/jquirosv/)
 
 This is one project in my portfolio. Visit my profile to explore my background
 and other projects.
@@ -104,27 +109,95 @@ and other projects.
 ---
 
 <details>
-<summary>Leer en español</summary>
+<summary>Español — presentación completa</summary>
 
-## ChordStream: caso de estudio
+## ChordStream en español
 
-ChordStream es un cancionero para Android que permite organizar repertorios,
-editar letras y acordes, transponer canciones y preparar setlists. Incluye vistas
-por instrumento, tablaturas, desplazamiento automático y funciones colaborativas.
+**Un cancionero para Android pensado para ensayos e interpretación en vivo.**
 
-Mi trabajo abarca el cliente Flutter, el motor musical en Dart, la persistencia
-local con SQLite y la API PHP/MySQL para cuentas y grupos. Entre los retos se
-encuentran alinear acordes sin romper palabras, transformar una canción sin
-sobrescribir su fuente y gestionar cambios concurrentes.
+Organiza canciones, adapta los acordes a cada músico y mantén el repertorio listo para tocar. ChordStream combina una biblioteca local con espacios de trabajo colaborativos.
 
-Este repositorio es la ficha pública de ChordStream dentro de mi portafolio.
-El código, las pruebas y el historial de desarrollo se mantienen en un repositorio
-privado independiente. Aquí se muestran la propuesta, las capturas, la arquitectura
-y las decisiones técnicas.
+**Flutter · Dart · SQLite · PHP · MySQL**
 
-La biblioteca individual funciona sin cuenta ni conexión. Los cambios de grupo
-requieren conexión y confirmación del servidor. Las capturas utilizan contenido
-de demostración y datos ficticios.
+[Recorrido del producto](docs/PRODUCT_TOUR.md) · [Arquitectura](docs/ARCHITECTURE.md) · [Decisiones técnicas](docs/TECHNICAL_NOTES.md) · [Validación](docs/VALIDATION.md). Documentación ampliada en inglés.
+
+**Creado por [José Pablo Quirós Vásquez](https://github.com/jquirosv).**
+
+Este repositorio es la ficha pública de ChordStream. El código de la aplicación, las pruebas y su historial de desarrollo se mantienen en un repositorio privado independiente. Aquí se presentan documentación e imágenes de demostración.
+
+### El problema
+
+Los músicos suelen preparar su repertorio entre archivos PDF, capturas y mensajes. Cambian las tonalidades, las versiones se separan y cantantes e instrumentistas necesitan vistas distintas de una misma canción. ChordStream conserva una canción estructurada y genera la vista de lectura a partir de su contenido musical y del instrumento del intérprete.
+
+### Qué desarrollé
+
+- Aplicación Flutter para Android con biblioteca, editor, lector, setlists y vistas por instrumento.
+- Motor musical en Dart con analizador léxico, parser, árbol musical, transposición y filtros.
+- Persistencia local SQLite, borradores, importación y exportación de respaldos y eliminación recuperable.
+- API PHP/MySQL para cuentas, permisos de grupo, canciones compartidas y sincronización.
+
+### Funcionalidades principales
+
+| Área | Capacidades |
+| --- | --- |
+| Biblioteca | Búsqueda, etiquetas, portadas, ordenación y organización de canciones. |
+| Editor | Resaltado de sintaxis, validación, vista previa y recuperación de borradores. |
+| Lector | Letras con acordes alineados, transposición, desplazamiento automático, secciones y metrónomo. |
+| Instrumentos | Guitarra, bajo, voz, armonía, afinaciones personalizadas y diagramas de acordes. |
+| Tablaturas | Tablaturas de texto y editor visual. |
+| Setlists | Orden de canciones y ajustes de interpretación. |
+| Colaboración | Grupos, invitaciones, roles y gestión de conflictos de revisión. |
+| Portabilidad | Conversión ChordPro e importación y exportación de respaldos nativos. |
+
+El modo individual funciona localmente sin cuenta ni conexión a Internet. Los cambios de grupo requieren conexión y confirmación del servidor.
+
+### Capturas
+
+Widgets reales de Flutter con contenido original de demostración y datos ficticios.
+
+| Biblioteca | Lector en vivo | Editor |
+| :---: | :---: | :---: |
+| ![Biblioteca musical](docs/assets/01_biblioteca_musical.png) | ![Lector en vivo](docs/assets/02_lector_en_vivo.png) | ![Editor musical](docs/assets/03_editor_musical.png) |
+
+| Setlists | Tablaturas visuales | Diccionario de acordes |
+| :---: | :---: | :---: |
+| ![Setlists](docs/assets/04_setlists.png) | ![Editor visual de tablaturas](docs/assets/05_editor_vtab.png) | ![Diccionario de acordes](docs/assets/06_diccionario_acordes.png) |
+
+[Colaboración en grupos](docs/assets/07_colaboracion.png) · [Recorrido completo](docs/PRODUCT_TOUR.md) · [Procedencia visual](docs/assets/README.md)
+
+### Tecnologías
+
+| Capa | Tecnologías |
+| --- | --- |
+| Aplicación | Flutter, Dart, Material, Provider y Canvas/CustomPainter |
+| Motor musical | Analizador léxico y parser en Dart, árbol musical, validación y transposición |
+| Datos locales | SQLite/sqflite, almacenamiento seguro, archivos y respaldos comprimidos |
+| Backend | PHP, PDO, MySQL, REST y JSON |
+| Ingeniería | Git, Flutter Test, pruebas PHP, OpenAPI y GitHub Actions |
+
+### Decisiones de ingeniería
+
+- **Conservar la canción original:** la transposición y los filtros por instrumento actúan sobre un árbol musical en memoria, sin reescribir el texto del usuario.
+- **Mantener legible la letra:** los acordes usan una capa de composición independiente para evitar que rompan palabras y saltos naturales de línea.
+- **Proteger las ediciones compartidas:** revisiones de API, transacciones e idempotencia permiten gestionar cambios concurrentes y reintentos.
+- **Mantener disponible el trabajo personal:** la biblioteca individual utiliza SQLite local; el servidor confirma las escrituras de grupo.
+
+[Arquitectura](docs/ARCHITECTURE.md) · [Retos y decisiones técnicas](docs/TECHNICAL_NOTES.md)
+
+### Estado del proyecto
+
+- Versión de código revisada: **1.1.1+16**.
+- Plataforma: **Android 7.0 / API 24 y posteriores**.
+- Verificación local registrada el **20 de octubre de 2026**: **282 pruebas Flutter y 31 PHP aprobadas**; también se aprobaron la validación OpenAPI y la paridad de **60 operaciones de API**.
+- Las capturas muestran la interfaz. Este repositorio no distribuye la aplicación compilada ni ofrece una cuenta pública de demostración.
+
+[Evidencia y alcance de validación](docs/VALIDATION.md).
+
+### Autor
+
+[José Pablo Quirós Vásquez](https://github.com/jquirosv) · Costa Rica · [LinkedIn](https://www.linkedin.com/in/jquirosv/)
+
+Este es uno de los proyectos de mi portafolio. En mi perfil puedes consultar mi formación y los demás proyectos.
 
 </details>
 

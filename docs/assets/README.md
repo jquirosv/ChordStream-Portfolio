@@ -1,5 +1,9 @@
 # Capturas de presentación
 
+`00-cover.svg` es una portada vectorial horizontal preparada para el README.
+Utiliza el nombre y la paleta azul de ChordStream con una ilustración musical;
+no representa una pantalla de la aplicación ni añade funciones al producto.
+
 Ocho PNG de 1080 × 1350 px, numerados para un carrusel. Muestran widgets reales
 de Flutter con datos de demostración, sobre marcos de teléfono y títulos.
 
